@@ -1,7 +1,5 @@
 # My Build of Hyprland (arch teehee)
 
-Required Packages
-
     Hyprland, Hyprshot, Hyprpaper, Hyprpicker, Hyprlock, Hypridle
     Kitty
     Rofi rofi-wayland
@@ -14,5 +12,16 @@ Required Packages
     copyq
     cava
     polkit-gnome
-    neovim (nvchad)
-    oh-my-posh
+    neovim (nvchad - gruvbox)
+    yazi
+    nwg-look
+    oh-my-posh - [hul10](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/hul10.omp.json)
+
+
+## To Do
+
+- [ ] Keybinds Cheat Sheet
+- [ ] installation script
+- [ ] Screenshots
+
+- [ ] Windows (maybe)
