@@ -15,7 +15,7 @@
     neovim (nvchad - gruvbox)
     yazi
     nwg-look
-    oh-my-posh - [hul10](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/hul10.omp.json)
+    oh-my-posh - (hul10)
 
 
 ## To Do
