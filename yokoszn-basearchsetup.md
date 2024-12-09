@@ -7,7 +7,7 @@
 
 ---
 
-# Packages
+# Base Install Packages
 - linux-hardened: My preferred Kernel.
 - intel-ucode: - microcode support.
 - btrfs-progs: Necessary for working with Btrfs.
