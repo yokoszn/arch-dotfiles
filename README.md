@@ -1,8 +1,8 @@
 # My Build of Hyprland (arch teehee)
 
-    Hyprland, Hyprshot, Hyprpaper, Hyprpicker, Hyprlock, Hypridle
+    Hyprland, Hyprshot, Hyprpicker, Hyprlock, Hypridle, Waypaper
     Kitty
-    Rofi rofi-wayland
+    Rofi \ rofi-wayland
     Swaync
     Waybar
     Wlogout
@@ -17,11 +17,13 @@
     nwg-look
     oh-my-posh - (hul10)
 
+## Wallpapers
+
+https://github.com/AngelJumbo/gruvbox-wallpapers
 
 ## To Do
 
 - [ ] Keybinds Cheat Sheet
-- [ ] installation script
+- [ ] installation guide
 - [ ] Screenshots
-
-- [ ] Windows (maybe)
+- [ ] Windows (maybe) 
