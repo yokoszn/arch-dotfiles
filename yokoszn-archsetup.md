@@ -8,16 +8,16 @@
 ---
 
 # Packages
-linux-hardened: My preferred Kernel.
-intel-ucode: - microcode support.
-btrfs-progs: Necessary for working with Btrfs.
-dosfstools: Important if you are using a FAT filesystem for partitions like EFI.
-util-linux: A collection of essential utilities for Linux systems.
-unzip: To handle .zip files.
-sbctl: Secure Boot utility if you’re using UEFI with Secure Boot enabled.
-networkmanager: Useful for managing your network connections.
-sudo: Essential for user privileges management.
-git & kitty to setup my DE later.
+- linux-hardened: My preferred Kernel.
+- intel-ucode: - microcode support.
+- btrfs-progs: Necessary for working with Btrfs.
+- dosfstools: Important if you are using a FAT filesystem for partitions like EFI.
+- util-linux: A collection of essential utilities for Linux systems.
+- unzip: To handle .zip files.
+- sbctl: Secure Boot utility if you’re using UEFI with Secure Boot enabled.
+- networkmanager: Useful for managing your network connections.
+- sudo: Essential for user privileges management.
+- git & kitty to setup my DE later.
 
 ## The Basic Technologies
 
