@@ -3,7 +3,7 @@
 - [Unified Extensible Firmware Interface/Secure Boot](https://archlinux.org/packages/?name=intel-media-driver)
 - [Secure your boot process: UEFI + Secureboot + EFISTUB + Luks2 + lvm + ArchLinux](https://nwildner.com/posts/2020-07-04-secure-your-boot-process/)  
 - [How is hibernation supported on machines with UEFI Secure Boot?](https://security.stackexchange.com/questions/29122/how-is-hibernation-supported-on-machines-with-uefi-secure-boot)  
-- [Authenticated Boot and Disk Encryption on Linux](https://0pointer.net/blog/authenticated-boot-and-disk-encryption-on-linux.html) by Lennart Poettering  
+- [Authenticated Boot and Disk Encryption on Linux](https://0pointer.net/blog/authenticated-boot-and-disk-encryption-on-linux.html)
 
 ---
 
