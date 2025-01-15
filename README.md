@@ -22,8 +22,8 @@
 https://github.com/AngelJumbo/gruvbox-wallpapers
 
 ## To Do
-
+- [ ] yubi-key for MFA with decryption with encrypted boot partition.
+- [ ] headless encrypted disk - bootloader on seperate drive, e.g. USB or microSD card
 - [ ] Keybinds Cheat Sheet
-- [ ] installation guide
 - [ ] Screenshots
-- [ ] Windows (maybe) 
+- [ ] Windows .files (maybe) 
