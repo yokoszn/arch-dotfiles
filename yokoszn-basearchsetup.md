@@ -1,12 +1,3 @@
-## Before Starting, Read:
-
-- [Unified Extensible Firmware Interface/Secure Boot](https://archlinux.org/packages/?name=intel-media-driver)
-- [Secure your boot process: UEFI + Secureboot + EFISTUB + Luks2 + lvm + ArchLinux](https://nwildner.com/posts/2020-07-04-secure-your-boot-process/)  
-- [How is hibernation supported on machines with UEFI Secure Boot?](https://security.stackexchange.com/questions/29122/how-is-hibernation-supported-on-machines-with-uefi-secure-boot)  
-- [Authenticated Boot and Disk Encryption on Linux](https://0pointer.net/blog/authenticated-boot-and-disk-encryption-on-linux.html)
-
----
-
 # Base Install Packages
 - linux-hardened: My preferred Kernel.
 - intel-ucode: - microcode support.
@@ -20,10 +11,7 @@
 - git & kitty to setup my DE later.
 
 ## The Basic Technologies
-
 [Authenticated Boot and Disk Encryption on Linux](https://0pointer.net/blog/authenticated-boot-and-disk-encryption-on-linux.html)
-
-Here’s a closer look at what these technologies deliver:
 
 1. **LUKS/`dm-crypt`/`cryptsetup`**:  
    These provide disk encryption and optionally, data authentication. Disk encryption ensures that data can only be read in plaintext if you possess a secret, usually a password or passphrase. Data authentication prevents unauthorized modifications to disk data. Most distributions only enable encryption by default; authentication is a newer feature not widely adopted yet.  
@@ -322,11 +310,13 @@ After rebooting, your system will be setup with Secure Boot, disk encryption, an
 Consult the [Arch Wiki Hardware Pages](https://wiki.archlinux.org/title/Category:Laptops) for additional configuration tips tailored to your device, such as touchpad gestures, power management, or device-specific quirks.
 
 For Example:[Lenovo Yoga 7i Gen 8 (16IRL8)](https://wiki.archlinux.org/title/Lenovo_Yoga_7i_Gen_8_(16IRL8)).
+---
+
+## Resources:
+
+- [Unified Extensible Firmware Interface/Secure Boot](https://archlinux.org/packages/?name=intel-media-driver)
+- [Secure your boot process: UEFI + Secureboot + EFISTUB + Luks2 + lvm + ArchLinux](https://nwildner.com/posts/2020-07-04-secure-your-boot-process/)  
+- [How is hibernation supported on machines with UEFI Secure Boot?](https://security.stackexchange.com/questions/29122/how-is-hibernation-supported-on-machines-with-uefi-secure-boot)  
+- [Authenticated Boot and Disk Encryption on Linux](https://0pointer.net/blog/authenticated-boot-and-disk-encryption-on-linux.html)
 
 ---
-# **Future**
-
-In the future I plan to write documentation for the following setups, building on top of the guide above.
-
-- [ ] yubi-key for MFA with decryption with encrypted boot partition.
-- [ ] headless encrypted disk - bootloader on seperate drive, e.g. USB or microSD card
