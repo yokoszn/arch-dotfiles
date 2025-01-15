@@ -309,7 +309,6 @@ After rebooting, your system will be setup with Secure Boot, disk encryption, an
 
 Consult the [Arch Wiki Hardware Pages](https://wiki.archlinux.org/title/Category:Laptops) for additional configuration tips tailored to your device, such as touchpad gestures, power management, or device-specific quirks.
 
-For Example:[Lenovo Yoga 7i Gen 8 (16IRL8)](https://wiki.archlinux.org/title/Lenovo_Yoga_7i_Gen_8_(16IRL8)).
 ---
 
 ## Resources:
