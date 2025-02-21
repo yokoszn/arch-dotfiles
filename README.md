@@ -1,22 +1,16 @@
-# My Build of Hyprland (arch teehee)
 
-    Hyprland, Hyprshot, Hyprpicker, Hyprlock, Hypridle, Waypaper
-    Kitty
-    Rofi \ rofi-wayland
-    Swaync
-    Waybar
-    Wlogout
-    scrcpy
-    fastfetch and imagemagick
-    mpv
-    copyq
-    cava
-    polkit-gnome
-    neovim (nvchad - gruvbox)
-    yazi
-    nwg-look
+```
+yay -S hyprland kitty nemo Wlogout hyprpaper-git waybar-hyprland wofi hyprshot Hyprland, Hyprshot, Hyprpicker, Hyprlock, Hypridle, Waypaper swaync mpv sddm swww
+```
+
+```
+yay -S copyq cava polkit-gnome yazi nwg-look fastfetch imagemagick scrcpy
+```
+ 
+```
+  neovim (nvchad - gruvbox)
     oh-my-posh - (hul10)
-
+```
 ## Wallpapers
 
 https://github.com/AngelJumbo/gruvbox-wallpapers
