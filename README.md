@@ -9,7 +9,13 @@ This covers the major keybindings and usage instructions for **my** Hyprland set
 ## Console / Terminal Hotkeys
 - **SUPER + Return**: Opens a new terminal showing `fastfetch` with a specific config.  
 - **SUPER + Shift + Return**: Opens a floating terminal at 50% size.
-
+  
+**SUPER + L** toggles lockscreen (hyprlock)
+**SUPER + E** opens $fileManager
+**SUPER + A** opens $editor
+**SUPER + A** opens Rofi
+**SUPER + G** opens GitHub in your default $browser. (see Envs.conf)
+  
 ## Basic Window Navigation
 - **SUPER + Q**: Closes (kills) the currently active window.  
 - **SUPER + Shift + V**: Pins a window to stay on top.  
@@ -20,7 +26,7 @@ This covers the major keybindings and usage instructions for **my** Hyprland set
 
 ## Scratchpad
 - These lines define **scratchpad-like workspaces** named `overview` and `running`.  
-- **SUPER + ~** toggles the special workspace named `overview`. 
+- **SUPER** **+** **~** toggles the special workspace named `overview`. 
 - Typically, `code:49` maps to the key above Tab (`~ / \`` on some keyboards), but confirm your own keycodes with `xev` or similar tools.
 
 ## Scrolling Between Workspaces
@@ -36,13 +42,11 @@ This covers the major keybindings and usage instructions for **my** Hyprland set
   
 - For more, check the official [**Hyprland Wiki**](https://wiki.hyprland.org/)
 
-# Miscellanous 
-```
-Shell : Fish in kitty
-nvim : (nvchad - gruvbox)
-```
-## Laptop Brightness & Lid Switch
+---
 
+# Miscellanous 
+
+#### Laptop Brightness & Lid Switch
 ```
 bindel = ,XF86MonBrightnessUp, exec, brightnessctl s 10%+
 bindel = ,XF86MonBrightnessDown, exec, brightnessctl s 10%-
@@ -53,7 +57,7 @@ bindl=,switch:on:Lid Switch,exec,hyprctl keyword monitor "eDP-1, disable"
 - **Laptop Brightness**: Pressing the dedicated brightness keys (XF86MonBrightnessUp/Down) calls `brightnessctl`. Adjust the percentage values to your preference.  
 - **Lid Switch**: Disables or re-enables `eDP-1` monitor.  --- f you’re on a **desktop**, you can remove these.
 ---
-## To Do
+# To Do
 - [ ] yubi-key for MFA with decryption with encrypted boot partition.
 - [ ] headless encrypted disk setup guide - bootloader on seperate drive, e.g. USB or microSD card
 - [ ] Screenshots
