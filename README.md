@@ -1,6 +1,5 @@
 
 # Hyprland Config & Arch Linux - BTRFS, LUKs, UKIs with Secure Boot
-
 ---
 This covers the major keybindings and usage instructions for **my** Hyprland setup. You’ll see references to programs or scripts that **you** can customize to **your preferences.**
 
@@ -27,7 +26,7 @@ This covers the major keybindings and usage instructions for **my** Hyprland set
 ## Scratchpad
 - These lines define **scratchpad-like workspaces** named `overview` and `running`.  
 - **SUPER** **+** **~** toggles the special workspace named `overview`. 
-- Typically, `code:49` maps to the key above Tab (`~ / \`` on some keyboards), but confirm your own keycodes with `xev` or similar tools.
+- Typically, `code:49` maps to the key above Tab (`~ / \`` on some keyboards), but confirm your own keycodes with `wev` or similar.
 
 ## Scrolling Between Workspaces
 - **SUPER + Scroll**: Cycles through available workspaces (scroll up or down).  
@@ -41,11 +40,8 @@ This covers the major keybindings and usage instructions for **my** Hyprland set
 - **SUPER + X**: Toggles notifications through `swaync-client`.
   
 - For more, check the official [**Hyprland Wiki**](https://wiki.hyprland.org/)
-
 ---
-
 # Miscellanous 
-
 #### Laptop Brightness & Lid Switch
 ```
 bindel = ,XF86MonBrightnessUp, exec, brightnessctl s 10%+
@@ -53,7 +49,6 @@ bindel = ,XF86MonBrightnessDown, exec, brightnessctl s 10%-
 bindl=,switch:off:Lid Switch,exec,hyprctl keyword monitor "eDP-1, preferred, auto, auto"
 bindl=,switch:on:Lid Switch,exec,hyprctl keyword monitor "eDP-1, disable"
 ```
-
 - **Laptop Brightness**: Pressing the dedicated brightness keys (XF86MonBrightnessUp/Down) calls `brightnessctl`. Adjust the percentage values to your preference.  
 - **Lid Switch**: Disables or re-enables `eDP-1` monitor.  --- f you’re on a **desktop**, you can remove these.
 ---
