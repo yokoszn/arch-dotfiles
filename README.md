@@ -19,8 +19,8 @@ This covers the major keybindings and usage instructions for **my** Hyprland set
 - **SUPER + R**: Toggles the window’s split orientation (horizontal/vertical).
 
 ## Scratchpad
-- These lines define **scratchpad-like workspaces** named `overveiw` and `running`.  
-- **SUPER + code:49** toggles the special workspace named `overveiw`. You can rename these to something more descriptive if you prefer.  
+- These lines define **scratchpad-like workspaces** named `overview` and `running`.  
+- **SUPER + ~** toggles the special workspace named `overview`. 
 - Typically, `code:49` maps to the key above Tab (`~ / \`` on some keyboards), but confirm your own keycodes with `xev` or similar tools.
 
 ## Scrolling Between Workspaces
