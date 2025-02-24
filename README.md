@@ -1,5 +1,5 @@
 
-# Hyprland 
+# Hyprland Config & Arch Linux - BTRFS, LUKs, UKIs with Secure Boot
 
 ---
 This covers the major keybindings and usage instructions for **my** Hyprland setup. You’ll see references to programs or scripts that **you** can customize to **your preferences.**
